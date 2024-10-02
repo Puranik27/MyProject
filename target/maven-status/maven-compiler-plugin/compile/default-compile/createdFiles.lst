@@ -1,0 +1,8 @@
+pageobjectmodel\Landing_Page.class
+pageobjectmodel\Order_Page.class
+pageobjectmodel\Checkout_Page.class
+abstract_components\Abstract_Reuseable_Code.class
+pageobjectmodel\Cart_Page.class
+pageobjectmodel\Confirmation_Page.class
+pageobjectmodel\Product_catlogue.class
+Resources\ExtentReport.class
