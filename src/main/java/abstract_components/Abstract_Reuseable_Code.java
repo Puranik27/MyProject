@@ -66,4 +66,8 @@ public class Abstract_Reuseable_Code {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	}
+	public void waiting() {
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
+	}
 }
