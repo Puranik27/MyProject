@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -88,5 +89,11 @@ public class Abstract_Reuseable_Code {
 		
 		WebDriverWait wait12 = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait12.until(ExpectedConditions.invisibilityOfElementLocated(waiting12));
+	}
+	public void fluent_wait() {
+		
+		//FluentWait flwait = new FluentWait(flwait, null, null);
+		int a = 10;
+		String name = "Prakash";
 	}
 }
