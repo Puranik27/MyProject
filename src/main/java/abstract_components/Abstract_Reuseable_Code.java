@@ -81,6 +81,12 @@ public class Abstract_Reuseable_Code {
 	public void select_class(WebElement selecting) {
 		
 		Select s = new Select(selecting);
+		s.selectByIndex(0);
 		
+	}
+	public void explict_wait(By waiting12) {
+		
+		WebDriverWait wait12 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait12.until(ExpectedConditions.invisibilityOfElementLocated(waiting12));
 	}
 }
