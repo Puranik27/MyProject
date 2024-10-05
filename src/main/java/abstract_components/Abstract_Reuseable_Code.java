@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageobjectmodel.Cart_Page;
@@ -76,5 +77,10 @@ public class Abstract_Reuseable_Code {
 		Actions a = new Actions(driver);
 		a.contextClick();
 		a.moveToElement(abcd);		
+	}
+	public void select_class(WebElement selecting) {
+		
+		Select s = new Select(selecting);
+		
 	}
 }
